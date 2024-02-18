@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3E19FB2B76725A00295998 /* Maths_Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA3E19FA2B76725A00295998 /* Maths_Tests.mm */; };
+		FA3E19FC2B76725A00295998 /* libMaths.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA956CCC2B75315600CA4277 /* libMaths.a */; };
+		FA3E1A022B76729600295998 /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956D062B75387700CA4277 /* Vector3.cpp */; };
+		FA3E1A032B76729600295998 /* Maths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956CD32B75315600CA4277 /* Maths.cpp */; };
+		FA3E1A042B76729600295998 /* Matrix4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956D0A2B753BF500CA4277 /* Matrix4x4.cpp */; };
+		FA3E1A0C2B7674FA00295998 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3E1A0B2B7674FA00295998 /* main.cpp */; };
+		FA3E1A112B76761800295998 /* Vector3Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3E1A102B76761800295998 /* Vector3Test.cpp */; };
+		FA3E1A122B76763F00295998 /* Matrix4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956D0A2B753BF500CA4277 /* Matrix4x4.cpp */; };
+		FA3E1A132B76763F00295998 /* Maths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956CD32B75315600CA4277 /* Maths.cpp */; };
+		FA3E1A142B76763F00295998 /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956D062B75387700CA4277 /* Vector3.cpp */; };
+		FA3E1A2D2B768AA600295998 /* libgmock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E1A282B768AA600295998 /* libgmock.a */; };
+		FA3E1A2F2B768AA600295998 /* libgmock_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E1A292B768AA600295998 /* libgmock_main.a */; };
+		FA3E1A312B768AA600295998 /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E1A2A2B768AA600295998 /* libgtest_main.a */; };
+		FA3E1A332B768AA600295998 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E1A2B2B768AA600295998 /* libgtest.a */; };
+		FA956CD02B75315600CA4277 /* Maths.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FA956CCF2B75315600CA4277 /* Maths.hpp */; };
+		FA956CD22B75315600CA4277 /* MathsPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FA956CD12B75315600CA4277 /* MathsPriv.hpp */; };
+		FA956CD42B75315600CA4277 /* Maths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956CD32B75315600CA4277 /* Maths.cpp */; };
+		FA956D082B75387700CA4277 /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956D062B75387700CA4277 /* Vector3.cpp */; };
+		FA956D092B75387700CA4277 /* Vector3.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FA956D072B75387700CA4277 /* Vector3.hpp */; };
+		FA956D0C2B753BF500CA4277 /* Matrix4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA956D0A2B753BF500CA4277 /* Matrix4x4.cpp */; };
+		FA956D0D2B753BF500CA4277 /* Matrix4x4.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FA956D0B2B753BF500CA4277 /* Matrix4x4.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3E19FD2B76725A00295998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA956CC42B75315600CA4277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA956CCB2B75315600CA4277;
+			remoteInfo = Maths;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA3E1A072B7674FA00295998 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA3E19F82B76725A00295998 /* Maths.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Maths.Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3E19FA2B76725A00295998 /* Maths_Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Maths_Tests.mm; sourceTree = "<group>"; };
+		FA3E1A092B7674FA00295998 /* Maths.DumbTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maths.DumbTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3E1A0B2B7674FA00295998 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA3E1A102B76761800295998 /* Vector3Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3Test.cpp; sourceTree = "<group>"; };
+		FA3E1A282B768AA600295998 /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = ../../ext/googletest/lib/libgmock.a; sourceTree = "<group>"; };
+		FA3E1A292B768AA600295998 /* libgmock_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock_main.a; path = ../../ext/googletest/lib/libgmock_main.a; sourceTree = "<group>"; };
+		FA3E1A2A2B768AA600295998 /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = ../../ext/googletest/lib/libgtest_main.a; sourceTree = "<group>"; };
+		FA3E1A2B2B768AA600295998 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../../ext/googletest/lib/libgtest.a; sourceTree = "<group>"; };
+		FA956CCC2B75315600CA4277 /* libMaths.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMaths.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA956CCF2B75315600CA4277 /* Maths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Maths.hpp; sourceTree = "<group>"; };
+		FA956CD12B75315600CA4277 /* MathsPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MathsPriv.hpp; sourceTree = "<group>"; };
+		FA956CD32B75315600CA4277 /* Maths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maths.cpp; sourceTree = "<group>"; };
+		FA956D062B75387700CA4277 /* Vector3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
+		FA956D072B75387700CA4277 /* Vector3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector3.hpp; sourceTree = "<group>"; };
+		FA956D0A2B753BF500CA4277 /* Matrix4x4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix4x4.cpp; sourceTree = "<group>"; };
+		FA956D0B2B753BF500CA4277 /* Matrix4x4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Matrix4x4.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3E19F52B76725A00295998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E19FC2B76725A00295998 /* libMaths.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1A062B7674FA00295998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E1A312B768AA600295998 /* libgtest_main.a in Frameworks */,
+				FA3E1A2F2B768AA600295998 /* libgmock_main.a in Frameworks */,
+				FA3E1A2D2B768AA600295998 /* libgmock.a in Frameworks */,
+				FA3E1A332B768AA600295998 /* libgtest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA956CCA2B75315600CA4277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3E19F92B76725A00295998 /* Maths.Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E19FA2B76725A00295998 /* Maths_Tests.mm */,
+			);
+			path = Maths.Tests;
+			sourceTree = "<group>";
+		};
+		FA3E1A0A2B7674FA00295998 /* Maths.DumbTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E1A0B2B7674FA00295998 /* main.cpp */,
+				FA3E1A102B76761800295998 /* Vector3Test.cpp */,
+			);
+			path = Maths.DumbTests;
+			sourceTree = "<group>";
+		};
+		FA3E1A272B768A2200295998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E1A292B768AA600295998 /* libgmock_main.a */,
+				FA3E1A282B768AA600295998 /* libgmock.a */,
+				FA3E1A2A2B768AA600295998 /* libgtest_main.a */,
+				FA3E1A2B2B768AA600295998 /* libgtest.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA956CC32B75315600CA4277 = {
+			isa = PBXGroup;
+			children = (
+				FA3E1A272B768A2200295998 /* Frameworks */,
+				FA956CCE2B75315600CA4277 /* Maths */,
+				FA3E19F92B76725A00295998 /* Maths.Tests */,
+				FA3E1A0A2B7674FA00295998 /* Maths.DumbTests */,
+				FA956CCD2B75315600CA4277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA956CCD2B75315600CA4277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA956CCC2B75315600CA4277 /* libMaths.a */,
+				FA3E19F82B76725A00295998 /* Maths.Tests.xctest */,
+				FA3E1A092B7674FA00295998 /* Maths.DumbTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA956CCE2B75315600CA4277 /* Maths */ = {
+			isa = PBXGroup;
+			children = (
+				FA956CCF2B75315600CA4277 /* Maths.hpp */,
+				FA956CD12B75315600CA4277 /* MathsPriv.hpp */,
+				FA956CD32B75315600CA4277 /* Maths.cpp */,
+				FA956D062B75387700CA4277 /* Vector3.cpp */,
+				FA956D072B75387700CA4277 /* Vector3.hpp */,
+				FA956D0A2B753BF500CA4277 /* Matrix4x4.cpp */,
+				FA956D0B2B753BF500CA4277 /* Matrix4x4.hpp */,
+			);
+			path = Maths;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA956CC82B75315600CA4277 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA956D0D2B753BF500CA4277 /* Matrix4x4.hpp in Headers */,
+				FA956CD02B75315600CA4277 /* Maths.hpp in Headers */,
+				FA956D092B75387700CA4277 /* Vector3.hpp in Headers */,
+				FA956CD22B75315600CA4277 /* MathsPriv.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA3E19F72B76725A00295998 /* Maths.Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3E1A012B76725A00295998 /* Build configuration list for PBXNativeTarget "Maths.Tests" */;
+			buildPhases = (
+				FA3E19F42B76725A00295998 /* Sources */,
+				FA3E19F52B76725A00295998 /* Frameworks */,
+				FA3E19F62B76725A00295998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3E19FE2B76725A00295998 /* PBXTargetDependency */,
+			);
+			name = Maths.Tests;
+			productName = Maths.Tests;
+			productReference = FA3E19F82B76725A00295998 /* Maths.Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3E1A082B7674FA00295998 /* Maths.DumbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3E1A0D2B7674FA00295998 /* Build configuration list for PBXNativeTarget "Maths.DumbTests" */;
+			buildPhases = (
+				FA3E1A052B7674FA00295998 /* Sources */,
+				FA3E1A062B7674FA00295998 /* Frameworks */,
+				FA3E1A072B7674FA00295998 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maths.DumbTests;
+			productName = Maths.DumbTests;
+			productReference = FA3E1A092B7674FA00295998 /* Maths.DumbTests */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA956CCB2B75315600CA4277 /* Maths */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA956CD72B75315600CA4277 /* Build configuration list for PBXNativeTarget "Maths" */;
+			buildPhases = (
+				FA956CC82B75315600CA4277 /* Headers */,
+				FA956CC92B75315600CA4277 /* Sources */,
+				FA956CCA2B75315600CA4277 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maths;
+			productName = Maths;
+			productReference = FA956CCC2B75315600CA4277 /* libMaths.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA956CC42B75315600CA4277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FA3E19F72B76725A00295998 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FA3E1A082B7674FA00295998 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FA956CCB2B75315600CA4277 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FA956CC72B75315600CA4277 /* Build configuration list for PBXProject "Maths" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA956CC32B75315600CA4277;
+			productRefGroup = FA956CCD2B75315600CA4277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA956CCB2B75315600CA4277 /* Maths */,
+				FA3E19F72B76725A00295998 /* Maths.Tests */,
+				FA3E1A082B7674FA00295998 /* Maths.DumbTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3E19F62B76725A00295998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3E19F42B76725A00295998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E1A022B76729600295998 /* Vector3.cpp in Sources */,
+				FA3E1A032B76729600295998 /* Maths.cpp in Sources */,
+				FA3E19FB2B76725A00295998 /* Maths_Tests.mm in Sources */,
+				FA3E1A042B76729600295998 /* Matrix4x4.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1A052B7674FA00295998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E1A112B76761800295998 /* Vector3Test.cpp in Sources */,
+				FA3E1A142B76763F00295998 /* Vector3.cpp in Sources */,
+				FA3E1A0C2B7674FA00295998 /* main.cpp in Sources */,
+				FA3E1A122B76763F00295998 /* Matrix4x4.cpp in Sources */,
+				FA3E1A132B76763F00295998 /* Maths.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA956CC92B75315600CA4277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA956D082B75387700CA4277 /* Vector3.cpp in Sources */,
+				FA956CD42B75315600CA4277 /* Maths.cpp in Sources */,
+				FA956D0C2B753BF500CA4277 /* Matrix4x4.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3E19FE2B76725A00295998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA956CCB2B75315600CA4277 /* Maths */;
+			targetProxy = FA3E19FD2B76725A00295998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA3E19FF2B76725A00295998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 646CN7ZAU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marczaku.Maths-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../ext/googletest/include";
+			};
+			name = Debug;
+		};
+		FA3E1A002B76725A00295998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 646CN7ZAU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marczaku.Maths-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../ext/googletest/include";
+			};
+			name = Release;
+		};
+		FA3E1A0E2B7674FA00295998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 646CN7ZAU2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../ext/googletest/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../ext/googletest/include/**";
+			};
+			name = Debug;
+		};
+		FA3E1A0F2B7674FA00295998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 646CN7ZAU2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../ext/googletest/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../ext/googletest/include/**";
+			};
+			name = Release;
+		};
+		FA956CD52B75315600CA4277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA956CD62B75315600CA4277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA956CD82B75315600CA4277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 646CN7ZAU2;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA956CD92B75315600CA4277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 646CN7ZAU2;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3E1A012B76725A00295998 /* Build configuration list for PBXNativeTarget "Maths.Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3E19FF2B76725A00295998 /* Debug */,
+				FA3E1A002B76725A00295998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3E1A0D2B7674FA00295998 /* Build configuration list for PBXNativeTarget "Maths.DumbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3E1A0E2B7674FA00295998 /* Debug */,
+				FA3E1A0F2B7674FA00295998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA956CC72B75315600CA4277 /* Build configuration list for PBXProject "Maths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA956CD52B75315600CA4277 /* Debug */,
+				FA956CD62B75315600CA4277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA956CD72B75315600CA4277 /* Build configuration list for PBXNativeTarget "Maths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA956CD82B75315600CA4277 /* Debug */,
+				FA956CD92B75315600CA4277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA956CC42B75315600CA4277 /* Project object */;
+}

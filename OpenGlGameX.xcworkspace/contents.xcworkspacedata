@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Maths/../Maths.Test/Maths.Test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OpenGLGameX/../Maths/Maths.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OpenGLGameX/OpenGLGameX.xcodeproj">
+   </FileRef>
+</Workspace>

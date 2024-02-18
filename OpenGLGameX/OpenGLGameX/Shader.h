@@ -7,6 +7,7 @@
 
 class Shader
 {
+    const char* path;
     // Function to read the contents of a file into a string
     std::string readShaderFile(const std::string& filePath) {
         std::ifstream fileStream(filePath);
@@ -53,7 +54,7 @@ class Shader
 
 public:
     unsigned int shaderId;
-    Shader(const char* shaderPath, int shaderType) { // when constructed: load shader on GPU
+    Shader(const char* shaderPath, int shaderType) : path{shaderPath} { // when constructed: load shader on GPU
         shaderId = compileShaderFromFile(shaderPath, shaderType);
     }
     Shader(const Shader&) = delete; // avoid it being cloned // Copy Constructor
